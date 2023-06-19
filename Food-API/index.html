@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RecipeBite</title>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" 
+crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&display=swap" rel="stylesheet">
+
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+      <div class="container">
+        <div class="meal-wrapper">
+          <div class="meal-search">
+            <h2 class="title">Find Your Ingredients</h2>
+            <blockquote>Real Food doesn't have Ingredients,Real Food
+              is Ingredients<br>
+              <cite>-Web Developer</cite>
+            </blockquote>
+
+            <div class="meal-search-box">
+              <input type="text" class="search-control" id="search-input" placeholder="Enter Your Recipe">
+              <button type="submit" class="search-btn btn" id="search-btn">
+              <i class="fas fa-search"></i>
+            </button>
+            </div>
+          </div>
+
+
+          <div class="meal-result">
+            <h2 class="title">Your Search Results:</h2>
+            <div id="meal">
+            </div>
+            </div>
+              
+
+          <div class="meal-details">
+            <button type="button" class="btn recipe-close-btn" 
+            id="recipe-close-btn">
+          <i class="fas fa-times"></i>
+        </button>
+
+
+        <div class="meal-details-content">
+          
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="./script.js"></script>  
+</body>
+</html>
